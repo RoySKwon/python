@@ -43,7 +43,6 @@ print("*" * 30);
 print(sub2Demen);            
  """
 
-#195
 ohlc = [
         ["open", "high", "low", "close"],
         [100, 110, 70, 100],
@@ -57,5 +56,48 @@ for row in ohlc:
     print(row[3]);
  """
 
+""" 
 for row in ohlc[1:]:
     print(row[3]);
+ """
+
+""" 
+for row in ohlc[1:]:
+    if(row[3]> 150):
+        print(row[3]);
+ """
+
+"""  
+print(ohlc[1][1]);
+print(ohlc[1][2]);
+
+print(ohlc[2][1]);
+print(ohlc[2][2]);
+
+print(ohlc[3][1]);
+print(ohlc[3][2]);
+ """
+
+volatility = [];
+
+"""     
+for row in ohlc[1:]:
+    volatility.append(row[1] - row[2]);
+print(volatility);
+ """
+
+"""  
+for row in range(1, len(ohlc)):
+    volatility.append(ohlc[row][1] - ohlc[row][2])
+print(volatility);
+ """
+
+for row in range(1, len(ohlc)):
+    if(ohlc[row][3] > ohlc[row][0]):
+        print(ohlc[row][3] - ohlc[row][0]);
+
+total = 0;
+
+for row in range(1, len(ohlc)):
+    total += (ohlc[row][3] - ohlc[row][0]);
+print("total margin :", total);
