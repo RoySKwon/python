@@ -1,5 +1,5 @@
 # upDownLeftRight
-# Simulation
+# simulation
 
 x, y = 1, 1; # initial
 print("Start position:", "(",x,",",y,")");
