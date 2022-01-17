@@ -1,5 +1,7 @@
 # recursiv03
 # Factorial with recursive
+# Test Iterative Vs Recursive
+# Recursive fast
 
 import time
 
