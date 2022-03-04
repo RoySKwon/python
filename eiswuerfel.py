@@ -1,5 +1,5 @@
 # eiswuerfel
-# DFS  
+# DFS  recursive function
 
 def dfs(x, y):
     #Boundary Over
