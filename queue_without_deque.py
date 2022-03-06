@@ -1,4 +1,7 @@
 # queue_without_deque.py
+import time
+
+startTime = time.time();
 
 queue = list();
 
@@ -22,3 +25,6 @@ print(queue);
 
 queue.reverse();
 print(queue);
+
+endTime = time.time();
+print("Total Time:", endTime - startTime);

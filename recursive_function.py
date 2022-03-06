@@ -3,7 +3,7 @@
 
 def recursive_function():
 	print("Call Recursive Function");
-	recursive_function(); #maximum recursion depth exceeded 
+	recursive_function(); # ERROR : maximum recursion depth exceeded 
 	return 0;
 
 recursive_function();

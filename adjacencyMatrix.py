@@ -1,7 +1,6 @@
-# adjacencyMatrix
+# adjacencyMatrix.py
 
-#Adjacency Matrix
-
+#infinity
 INF = 999999999;
 
 """ 
@@ -16,6 +15,3 @@ grap = [
 ];
 
 print(grap);
-
-
-#Adjacency List

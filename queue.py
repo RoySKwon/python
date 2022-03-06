@@ -2,6 +2,9 @@
 # FIFO
 
 from collections import deque;
+import time
+
+startTime = time.time();
 
 queue = deque();
 
@@ -23,3 +26,6 @@ queue.popleft();
 print(queue);
 queue.reverse();
 print(queue);
+
+endTime = time.time();
+print("Total Time:", endTime - startTime);
